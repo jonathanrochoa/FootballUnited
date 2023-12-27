@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Football United</title>
+  <link rel="icon" href="img/soccer_player_icon.png">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="impact.html">IMPACT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      <li><button id="theme-button">Toggle Dark Mode</button></li>
+    </ul>
+  </div>
+
+
+  <div class="header-container">
+    <div class="header-item-img">
+      <img src="img/penn_state_soccer.jpg" style="max-width: 500px; height: auto;" alt="Penn State Soccer"
+        href="https://gopsusports.com/sports/mens-soccer" />
+      <figcaption id="imgtitle">Image of The Pennsylvania State University Men's Soccer Team.</figcaption>
+    </div>
+
+    <div class="header-item">
+      <h1 class="header-item-title">The Beautiful Game Hub</h1>
+    </div>
+
+    <button id="reduce-motion">Reduce Motion</button>
+  </div>
+
+  <div class="mission-container revealable">
+    <div class="mission-item-h2">
+      <h2>The Purpose and Mission of Football United</h2>
+    </div>
+    <div class="mission-item-image">
+      <img src="img/charity_ball_image.jpg" style="max-width: 500px; height: auto;" alt="Charity Ball Soccer"
+        href="https://charityball.org/" />
+      <figcaption id="imgtitle">Image of Children Around Soccer Ball Donated From Charity Ball.</figcaption>
+    </div>
+    <div class="mission-item-information">
+      <p class="important">Football United is a website dedicated to harnessing the global passion for soccer to drive
+        positive social
+        change.</p>
+      <p>With the immense popularity of soccer worldwide, the platform aims to unite fans, players, and
+        organizations to
+        address various social issues. Whether it's promoting gender equality, fostering youth development, or
+        supporting
+        underprivileged communities, Football United leverages the power of the sport to make a meaningful impact. By
+        connecting individuals and promoting initiatives from diverse backgrounds, the platform seeks to create a global
+        community of soccer enthusiasts committed to driving change both on and off the pitch.</p>
+    </div>
+
+    <div class="mission-item-video revealable">
+      <iframe src="https://www.youtube.com/embed/9ESvNAzxoIE?si=Q0wM6oCKUsxq5NmY" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen width="600" height="350" allowfullscreen></iframe>
+    </div>
+  </div>
+
+
+  <div class="petition revealable" id="petition">
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+      <div class="petition-para">
+        <p>Join us in signing this important petition to support initiatives addressing the profound impact of soccer on
+          individuals, communities, and society as a whole. Soccer is not just a game; it's a powerful force for
+          positive change. This petition seeks to raise awareness and rally support for programs that use soccer as a
+          tool for social inclusion, youth development, and community cohesion. By signing, you are endorsing efforts to
+          provide underprivileged youth with access to the beautiful game, promoting gender equality in soccer, and
+          advocating for the construction and maintenance of safe, accessible soccer facilities in underserved
+          neighborhoods. Together, we can harness the transformative power of soccer to build stronger, more connected
+          communities, and empower individuals to achieve their full potential. Sign up now and be a part of this
+          impactful movement for the betterment of our world through the love of soccer.</p>
+      </div>
+      <div class="signatures">
+        <p>🖊️ DJ from Brooklyn supports this.</p>
+        <p>🖊️ Amy from Queens supports this.</p>
+        <p>🖊️ Teresa from Harlem supports this.</p>
+        <div id="new-signatures">
+        </div>
+        <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+      </div>
+    </div>
+    <form id="sign-petition">
+      <!-- Name Input -->
+      <div class="input-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <!-- Email Input -->
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+      </div>
+      <!-- Cellphone Input -->
+      <div class="input-group">
+        <label for "cellphone">Cellphone:</label>
+        <input type="text" id="cellphone" name="cellphone">
+      </div>
+      <!-- Hometown Input -->
+      <div class="input-group">
+        <label for="hometown">Hometown:</label>
+        <input type="text" id="hometown" name="hometown">
+      </div>
+    </form>
+
+    <!-- Sign Now Button -->
+    <button id="sign-now-button">Sign Now</button>
+  </div>
+
+
+  <div id="thanks-modal" class="modal">
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">
+          This is my modal placeholder text to be modified!
+        </p>
+        <img id="modal-image" src="img/Asian-Soccer-female-player.jpg" style="max-width:300px; height: auto;"
+          alt="Female Soccer Player Icon" />
+      </div>
+    </div>
+
+  </div>
+
+  <div class="news revealable">
+    <h2>Stories</h2>
+    <a href="https://www.espn.com/espnw/athletes-life/story/_/id/12922268/how-soccer-impact-social-change-youth-development"
+      target="_blank">
+      <article>
+        <h3>Soccer For Success: How One Sport Can Impact Social Change</h3>
+        <p>How soccer can impact social change and youth.</p>
+      </article>
+    </a>
+    <a href="https://www.sportanddev.org/latest/news/community-development-through-soccer" target="_blank">
+      <article>
+        <h3>Community Development Through Soccer</h3>
+        <p>Learning life skills through (football) soccer in the fields of Kempton Park in South Africa.</p>
+      </article>
+    </a>
+  </div>
+
+  <div class="more-button revealable">
+    <a href="impact.html"><button>More Stories</button></a>
+    <a href="https://ussoccerfoundation.org/donate/" target="_blank"><button>Where Can I Donate?</button></a>
+  </div>
+
+  <div class="footer-container">
+    <footer>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
