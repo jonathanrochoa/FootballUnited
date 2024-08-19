@@ -3,7 +3,7 @@ Social Advocacy Project created in CodePath 10-week class. Project developed usi
 
 I chose this topic because I am passionate about football, this made the project exciting to research and develop.
 
-![me](https://github.com/jonathanrochoa/FootballUnited/blob/main/FootballUnited.gif)
+![FootballUnited](https://github.com/jonathanrochoa/FootballUnited/blob/main/FootballUnited.gif)
 
 Completed 11/15/23
 
